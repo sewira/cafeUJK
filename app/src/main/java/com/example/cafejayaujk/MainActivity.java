@@ -1,0 +1,27 @@
+package com.example.cafejayaujk;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void keMenu(View view) {
+        Intent i = new Intent(MainActivity.this, ActivityMenu.class);
+        startActivity(i);
+    }
+
+    public void kePesanan(View view) {
+        Intent i = new Intent(MainActivity.this, ActivityPesanan.class);
+        startActivity(i);
+
+    }
+}

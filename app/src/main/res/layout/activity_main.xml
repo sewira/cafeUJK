@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#DD07FF4D"
+        android:text="Menu Cafe "
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textColorHighlight="#030303"
+        android:textColorHint="#070707"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#DD07FF4D"
+        android:text="Jaya "
+        android:textAlignment="center"
+        android:textColor="#FDFDFD"
+        android:textColorHighlight="#030303"
+        android:textColorHint="#070707"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/logocafe" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_gradient"
+            android:onClick="keMenu"
+            android:text="menu" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_gradient"
+            android:onClick="kePesanan"
+            android:text="Pesanan" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:text="Dian Wijaya"
+        app:fontFamily="sans-serif-medium" />
+    <TextView
+        android:id="@+id/textView321"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ujian Kompetensi Mobile Programming 9"
+        app:fontFamily="sans-serif-medium" />
+    <TextView
+        android:id="@+id/textView4321"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="25 Oktober 2019 BBPLK Bekasi"
+        app:fontFamily="sans-serif-medium" />
+
+
+</LinearLayout>
